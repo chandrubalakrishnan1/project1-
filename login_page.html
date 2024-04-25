@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS SLOT BOOKING</title>
+    <link rel="stylesheet" href="login_page.css">
+</head>
+<body>
+    <form action="login.php" method="post" onsubmit="validateLogin(); return false;">
+        <h1>Login</h1>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="username">
+        <label for="email">Email id</label>
+        <input type="email" id="email" name="email" placeholder="email">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="password">
+        <button type="submit">Login</button>
+        <a href="#">Forget password?</a>
+    </form>
+
+    <script>
+    function validateLogin() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      var email = document.getElementById("email").value;
+
+      // For simplicity, let's assume username and password are both "admin"
+      if (username === "admin" && password === "1234" && email === "123@bitsathy.ac.in") {
+        // Redirect to another page after successful login
+        window.location.href = "interface1.html"; // Replace "project.html" with your desired page
+      } else {
+        alert("Invalid input    . Please try again.");
+      }
+    }
+    </script>
+</body>
+</html>

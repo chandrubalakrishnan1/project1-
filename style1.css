@@ -1,0 +1,75 @@
+body {
+    background-color: #f0f8ff; /* Light blue background for the body */
+    font-family: Arial, sans-serif;
+  }
+  
+  #header {
+    background-color: #add8e6; /* Light blue background for the header */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #welcome {
+    font-weight: bold;
+    color: #000080; /* Dark blue text color for welcome message */
+  }
+  
+  #logout {
+    color: #0000ff; /* Blue text color for logout link */
+    text-decoration: underline;
+  }
+  
+  .box {
+    background-color: #e6e6ff; /* Light blue background for boxes */
+    border: 1px solid #9999ff; /* Light blue border for boxes */
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .box:hover {
+    background-color: #c6d9ff; /* Lighter blue background for boxes on hover */
+  }
+  
+  #dashboard,
+  #on-going-course,
+  #course-available,
+  #my-course,
+  #eligible-course,
+  #projects,
+  #other,
+  #python,
+  #programming,
+  #programming-python-level-1,
+  #all-course,
+  #ui,
+  #ux,
+  #ui-ux-level-1,
+  #cpro,
+  #programming-c-level-2 {
+    background-color: #e6e6ff; /* Light blue background for all boxes */
+    border: 1px solid #9999ff; /* Light blue border for all boxes */
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  #dashboard:hover,
+  #on-going-course:hover,
+  #course-available:hover,
+  #my-course:hover,
+  #eligible-course:hover,
+  #projects:hover,
+  #other:hover,
+  #python:hover,
+  #programming:hover,
+  #programming-python-level-1:hover,
+  #all-course:hover,
+  #ui:hover,
+  #ux:hover,
+  #ui-ux-level-1:hover,
+  #cpro:hover,
+  #programming-c-level-2:hover {
+    background-color: #c6d9ff; /* Lighter blue background for all boxes on hover */
+  }
